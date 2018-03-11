@@ -75,8 +75,8 @@ public class SSHConnector extends ScriptedConnectorBase<SSHConfiguration> implem
 
     /**
      * Disposes of {@link SSHConnector}'s resources.
-     * <p>
-     * {@see org.identityconnectors.framework.spi.Connector#dispose()}
+     *
+     * @see org.identityconnectors.framework.spi.Connector#dispose
      */
     @Override
     public void dispose() {
